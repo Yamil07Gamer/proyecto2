@@ -5,6 +5,9 @@
     --color-titulo: #ca4343;
     --color-texto1: #19184a;
     --color-texto2: #2b1036;
+    --color-texto3: #36102a;
+    --color-texto4: #361010;
+    --color-backfin: #0c4446;
 
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -42,6 +45,10 @@
         justify-content: center;
     }
 
+    #titulo3{
+        font-size: 2.0rem;
+    }
+
     .textos{
         height: auto;
         padding: 1rem 2rem 1rem 2rem;
@@ -55,6 +62,14 @@
 
     #texto2{
         background-color: var(--color-texto2);
+    }
+
+    #texto3{
+        background-color: var(--color-texto3);
+    }
+
+    #texto4{
+        background-color: var(--color-texto4);
     }
 
     .servidordns{
@@ -81,5 +96,63 @@
         width: 39rem;
         display: block;
         margin: 0 auto;
+    }
+
+    .meme2{
+        height: 90%;
+        display: block;
+        margin: 1rem auto;
+    }
+
+    .meme3{
+        height: 10%;
+        display: block;
+        margin: 1rem auto;
+    }
+
+    .box_tipos{
+        background-color: var(--color-texto3);
+        display: flex;
+    }
+
+    .box_tipos_son{
+        width: 50%;
+        padding: 1rem 2rem 1rem 2rem;
+
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+
+    .imagen2{
+        width: 25rem;
+        display: block;
+        margin: 1rem auto;
+    }
+
+    .fin{
+        width: 100%;
+        height: 15rem;
+        margin: 1rem 0 0 0;
+        background-color: var(--color-backfin);
+        display: flex;
+    }
+    .caja1{
+        width: 33%;
+        height: 100%;
+    }
+    .caja2{
+        width: 33%;
+        height: 100%;
+    }
+    .caja3{
+        width: 33%;
+        height: 100%;
+    }
+
+    .texto_caja1{
+        flex: 1;
+        display: block;
+        margin: 0.5rem 0.5rem;
+        font-size: 0.6rem;
     }
 }

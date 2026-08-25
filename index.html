@@ -26,15 +26,26 @@
                 positiva, así como conexiones rápidas y fiables a través de Internet a los sitios
                 web, las API y el software de las aplicaciones empresariales alojadas en la nube.
             </span>
+        </div>
+
+        <div class="textos" id="texto1">
+            <span>
+                Todos los equipos con Internet, desde su teléfono inteligente o portátil pueden acceder
+                a los servidores con contenido como los sitios web, se buscan y comunican entre sí mediante
+                el uso de números, estos números se conocen como direcciones IP, cuando abre un navegador web
+                y visita un sitio, no necesita recordar e ingresar un número largo, en su lugar, puedes
+                introducir un nombre de dominio como example.com y aun así terminar en el lugar correcto.
+            </span> 
         </div><br>
 
-        <div id="titulo2" class="titulo">
-            <h1>Funcionamiento</h1>
-        </div>
 
 
         <!-- Conjunto de texto funcionamiento DNS-->
 
+
+        <div id="titulo2" class="titulo">
+            <h1>Funcionamiento</h1>
+        </div>
 
         <div class="textos" id="texto2">
             <span>
@@ -85,8 +96,110 @@
                     y este responderá enviando datos del sitio web que el navegador puede mostrar e interpretar.
                 </span></li>
             </div>
+        </div><br>
+
+
+
+        <!--  Tipos de servidores DNS  -->
+
+        <div id="titulo3" class="titulo">
+            <h1>Tipos de servidores</h1>
         </div>
 
+        <div class="textos" id="texto3">
+            <span>
+                    Para que la red de servidores DNS pueda funcionar es necesario repartir el trabajo en a 4 tipos de 
+                    servidores, a continuación, los tipos de servidores DNS.
+            </span>
+            <img src="imagenes/grandes/cloudflarememe.png" alt="memecloud" class="meme2">
+        </div>
+
+        <div class="box_tipos">
+            <div class="box_tipos_son">
+                <li><span>
+                    DNS autoritativo: Un servicio DNS autoritativo proporciona un mecanismo de actualización que los 
+                    desarrolladores utilizan para administrar sus nombres DNS públicos, de esta forma, responde a las 
+                    consultas DNS al convertir los nombres de dominio en direcciones IP para que los equipos se puedan 
+                    comunicar entre sí.
+                </span></li>
+            </div>
+            <div class="box_tipos_son">
+                <li><span>
+                    DNS recursivo: Los resolutores recursivos actúan en nombre del usuario final para convertir el nombre 
+                    de dominio en una dirección IP, los resolutores recursivos también almacenan en caché las respuestas 
+                    a una solicitud durante un periodo específico para mejorar la eficiencia del sistema para futuras 
+                    consultas al mismo dominio.
+                </span></li>
+            </div>
+        </div>
+
+        <div class="box_tipos">
+            <img class="imagen2" src="imagenes/grandes/tipos_servidores_dns.png" alt="servidor_dns">
+        </div>
+
+        <div class="box_tipos">
+            <div class="box_tipos_son">
+                <li><span>
+                    DNS raíz: El resolvedor recursivo primero consulta con el servidor raíz, una organización llamada IANA 
+                    (Autoridad de Números Asignados de Internet), que forma parte de ICANN (Corporación de Internet para la 
+                    Asignación de Nombres y Números), mantiene estos servidores raíz.
+                </span></li>
+            </div>
+            <div class="box_tipos_son">
+                <li><span>
+                    DNS TLD: Ahora que el servidor recursivo tiene el servidor de dominio de nivel superior (TLD) correcto, 
+                    puede solicitarle a ese servidor la información correcta, los servidores TLD se clasifican en muchas categorías
+                </span></li>
+            </div>
+        </div><br>
+
+
+        <!-- Almacenamiento ache-->
+
+
+        <div id="titulo4" class="titulo">
+            <h1>Cache DNS</h1>
+        </div>
+
+        <div class="textos" id="texto4">
+            <span>
+                Hay varios tipos de almacenamiento en caché en el DNS, cada vez que un usuario o un equipo inicia una solicitud de DNS, 
+                la respuesta se puede almacenar en la memoria temporal o caché del sistema operativo y del navegador del usuario, o en 
+                cualquiera de los servidores recursivos implicados en la búsqueda, cada registro de DNS tiene un valor de periodo de vida 
+                (TTL) que determina durante cuánto tiempo se pueden almacenar los registros en una caché antes de eliminarlos, lo que hace 
+                que los servidores y los sistemas operativos busquen un registro actualizado.
+            </span>
+        </div>
+
+        <div class="textos" id="texto4">
+            <img class="meme3" src="imagenes/grandes/serverdown.png" alt="serverisdown">
+        </div>
+
+        <div class="textos" id="texto4">
+            <span>
+                Cuando un usuario o un equipo inicia una consulta de DNS, el dispositivo del usuario comprueba primero la caché local del 
+                sistema operativo o del navegador para ver si el registro ya existe allí, de lo contrario, reenvía la solicitud a un servidor 
+                DNS recursivo, el servidor recursivo resuelve la solicitud basándose en la información almacenada en su propia caché o la reenvía 
+                a otros servidores de nombres y, en última instancia, a un servidor DNS autoritativo, la respuesta del servidor DNS 
+                autoritativo se almacena en la caché de cada paso de resolución y se reenvía al dispositivo del usuario, que carga la página 
+                web correcta o se conecta al dispositivo correcto.
+            </span>
+        </div>
+  </div>
+
+  <div class="fin">
+        <div class="caja1">
+            <span class="texto_caja1">
+                Hecho por: Yamil Alexei Courtois Paredes
+            </span>
+            <span class="texto_caja1">
+                Grado y Gruṕo: 5° "K"
+            </span>
+        </div>
+        <div class="caja2">
+        </div>
+        <div class="caja3">
+        </div>
   </div>
 
 </body>
