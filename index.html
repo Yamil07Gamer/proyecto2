@@ -5,9 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="imagenes/icon/favicon.ico">
     <link rel="stylesheet" href="style.css">
-    <title>Protecto 2 DNS</title>
+    <title>Proyecto 2 DNS</title>
 </head>
 <body>
-    
+    <div class="pagina">
+
+        <div id="titulo1" class="titulo">
+            <h1>SERVIDOR DNS</h1>
+        </div>
+
+        <div class="textos" id="texto1">
+            <img src="imagenes/grandes/images.png" alt="servidor dns" class="servidordns"><br>
+            <span>
+                A diferencia de los humanos, las máquinas para comunicarse en la web,
+                usan las direcciones IP, como humanos es difícil memorizar cada una de ellas,
+                para eso existen los servidores DNS, los servidores DNS (sistema de nombres de dominio)
+                traducen los nombres de host de dominio legibles que utilizan los humanos,
+                como www.companywebsite.com, en direcciones IP que pueden leer las máquinas.
+                Los servidores DNS son esenciales para garantizar una experiencia de navegación
+                positiva, así como conexiones rápidas y fiables a través de Internet a los sitios
+                web, las API y el software de las aplicaciones empresariales alojadas en la nube.
+            </span>
+        </div><br>
+
+        <div id="titulo2" class="titulo">
+            <h1>Funcionamiento</h1>
+        </div>
+
+
+        <!-- Conjunto de texto funcionamiento DNS-->
+
+
+        <div class="textos" id="texto2">
+            <span>
+                    En una consulta DNS típica sin ningún tipo de almacenamiento en caché, hay 
+                    cuatro servidores que trabajan en conjunto para entregar una dirección IP al 
+                    cliente.
+            </span>
+        </div>
+
+        <div class="box_fun">
+            <div class="box_fun_son">
+                <li><span>
+                    El recursor DNS (también llamado solucionador DNS) es un servidor que recibe la 
+                    consulta del cliente DNS, y luego interactúa con otros servidores DNS para buscar la 
+                    IP correcta, una vez que el solucionador recibe la petición del cliente, este se 
+                    comporta como un cliente, consultando a los otros tres tipos de servidores DNS en 
+                    busca de la IP correcta.
+                </span></li>
+            </div>
+            <div class="box_fun_son">
+                <li><span>
+                    Luego, el solucionador consulta el servidor de nombre raíz, el servidor raíz es el 
+                    primer paso para traducir (solucionar) los nombres de dominio legibles para humanos 
+                    a direcciones IP, luego, el servidor raíz responde al solucionador con la dirección 
+                    de un servidor DNS del dominio de primer nivel (TLD) (como .com o .net), que almacena 
+                    la información de sus dominios.
+                </span></li>
+            </div>
+        </div>
+
+        <div class="box_fun">
+            <img class="meme1" src="imagenes/grandes/images1.jpg" alt="telemxdns">
+        </div>
+
+        <div class="box_fun">
+            <div class="box_fun_son">
+                <li><span>
+                    A continuación, el solucionador consulta al servidor de primer nivel, el servidor de
+                    primer nivel responde con la dirección IP del servidor de nombres autoritativo del dominio,
+                    entonces, el recursor consulta al servidor de nombres autoritativo, que responderá con la 
+                    dirección IP del servidor de origen.
+                </span></li>
+            </div>
+            <div class="box_fun_son">
+                <li><span>
+                    Finalmente, el solucionador devolverá al cliente la dirección IP del servidor de origen, 
+                    con esta dirección IP, el cliente puede iniciar una consulta directamente al servidor de origen,
+                    y este responderá enviando datos del sitio web que el navegador puede mostrar e interpretar.
+                </span></li>
+            </div>
+        </div>
+
+  </div>
+
 </body>
 </html>
