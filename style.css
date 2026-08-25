@@ -1,0 +1,10 @@
+:root{
+    --color-black: #FFFFFF;
+}
+
+
+/* Android */
+@media (max-width:566px){}
+
+/* PC */
+@media (min-width:566px){}
