@@ -34,7 +34,7 @@
     }
 
     .pagina{
-        margin: 0 1.5rem 0 0.12rem;
+        margin: 0 0 0 0;
         height: auto;
         width: 70%;
     }
@@ -44,12 +44,17 @@
         height: 7rem;
         display: flex;
         background-color: var(--color-titulo);
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         justify-content: center;
+    }
+
+    #titulo2{
+        font-size: 1rem;
     }
 
     #titulo3{
         height: 10rem;
+
     }
 
     .textos{
@@ -165,10 +170,10 @@
     .linker{
         top: 0;
         left: 0;
-        width: auto;
+        width: 7rem;
         height: auto;
         background-color: var(--color-texto1);
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         position: sticky;
         top: 0;
 
@@ -227,7 +232,7 @@
         height: 12rem;
         display: flex;
         background-color: var(--color-titulo);
-        font-size: 2.5rem;
+        font-size: 2rem;
         justify-content: center;
     }
 
@@ -238,7 +243,7 @@
     .textos{
         height: auto;
         padding: 1rem 2rem 1rem 2rem;
-        font-size: 2rem;
+        font-size: 1.2rem;
         text-align: justify;
     }
 
@@ -273,7 +278,7 @@
         width: 50%;
         padding: 1rem 2rem 1rem 2rem;
 
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-align: justify;
     }
 
@@ -305,7 +310,7 @@
         width: 50%;
         padding: 1rem 2rem 1rem 2rem;
 
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-align: justify;
     }
 
