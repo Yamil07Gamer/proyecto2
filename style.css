@@ -160,7 +160,7 @@
         height: 100%;
     }
 
-    .texto_caja1{
+    .texto_caja1, .texto_caja3{
         flex: 1;
         display: block;
         margin: 0.5rem 0.5rem;
@@ -340,7 +340,7 @@
         height: 100%;
     }
 
-    .texto_caja1{
+    .texto_caja1, .texto_caja3{
         flex: 1;
         display: block;
         margin: 0.5rem 0.5rem;
