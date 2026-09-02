@@ -196,6 +196,17 @@
         background-color: var(--color-titulo);
     }
 
+    .video{
+        display: flex;
+        background-color: var(--color-texto4);
+        justify-content: center;
+    }
+
+    #video{
+        height: auto;
+        width: 15rem;
+        margin: 2rem 0rem;
+    }
 
 }
 
@@ -373,6 +384,18 @@
 
     .linker a:hover{
         background-color: var(--color-titulo);
+    }
+
+    .video{
+        display: flex;
+        background-color: var(--color-texto4);
+        justify-content: center;
+    }
+
+    #video{
+        height: auto;
+        width: 30rem;
+        margin: 2rem 0rem;
     }
     
 }
